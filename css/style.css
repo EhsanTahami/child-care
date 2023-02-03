@@ -264,6 +264,8 @@ main.aside-navbar {
 
 .sec2 img {
     float: left;
+    max-width: 100%
+
 }
 
 .sec-tow-textPart {
