@@ -118,6 +118,16 @@ ul {
 
 /* responsive aside navbar */
 
+@media (min-width:990px) {
+    .aside-navbar{
+        display: none !important;
+    }
+    #head-section{
+        filter: none !important;
+        -webkit-filter: none !important;
+}
+}
+
 .aside-navbar {
     position: absolute;
     display: none;
@@ -185,6 +195,9 @@ main.aside-navbar {
 .aside-navbar-part {
     position: absolute;
 }
+
+/* responsive aside navbar end  */
+
 
 .blog-item {
     position: relative;
