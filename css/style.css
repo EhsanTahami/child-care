@@ -120,6 +120,7 @@ ul {
 
 .aside-navbar {
     position: absolute;
+    display: none;
     top: 0;
     left: 0;
     width: 45%;
@@ -254,7 +255,7 @@ main.aside-navbar {
 
 .sec-tow-textPart {
     padding: 15% 10% 0 0;
-    text-align:  right;
+    text-align: right;
 }
 
 .sec-tow-textPart p>strong {
@@ -262,13 +263,14 @@ main.aside-navbar {
     font-weight: bold;
 
 }
-.sec-tow-textPart p{
+
+.sec-tow-textPart p {
     font-size: 25px;
     font-weight: 500;
 
 }
 
-.more-information{
+.more-information {
     cursor: pointer;
     width: 150px;
     height: 50px;
@@ -282,4 +284,11 @@ main.aside-navbar {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+}
+
+.more-information:hover {
+    transform: scale(1.1);
+    color: #000;
+    background-color: #ffffff;
+    border: 2px solid #5258ca;
 }
